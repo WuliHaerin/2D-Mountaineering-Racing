@@ -1,0 +1,39 @@
+
+
+
+1. The car doesn't collide with Coin colliders in mobile (Android or iOS) build but works in Editor. 
+How can i fix this?
+
+Answer:
+Some times when you import a complete project in a newer version of the unity, you need to create a new tag and close the project and reopen again.
+
+Steps:
+1. Open Tag Manager
+2. Create new tag called "Item"
+3. Save and close project
+4. Re open your project and your problem has been solved
+
+Question: I want to make the car more realistic. Is a way?
+
+Answer: 
+You can change the Gravity of the unity physics to higher values.
+
+Steps:
+1. Open Edit->Project Settings->Physics2D
+2. In the Gravity section change the Y axis to lower value. Default is -9.81, lower value means -14 for example.
+
+Question: How can i make a moon level with lower gravity like 2D Racing Game?
+
+Answer: You need to change gravity to higher value. for example -4
+
+Question: Can i upload this game without reskin?
+
+Answer: Yes, if you add my asset store link (this asset link) to yout main menu button, your can upload without reskin.
+
+Question:   How can i limit level length?
+
+Answer: Select GameManager in each scene and set Level Length to your need. When player has been passed this distance, win screen will be shown.
+
+Licence:
+Free musics from:
+www.bensound.com
