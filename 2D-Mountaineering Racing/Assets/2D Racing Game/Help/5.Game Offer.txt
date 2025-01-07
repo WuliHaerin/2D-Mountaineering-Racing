@@ -1,0 +1,66 @@
+
+
+
+My other game templates:
+
+Car Parking Kit 2.2 + Car Parking Kit 1.7
+https://assetstore.unity.com/packages/templates/packs/car-parking-kit-2-2-71914?_ga=2.153653176.1685572403.1637743174-722242918.1635236432
+
+Car Parking Kit 1.7
+https://assetstore.unity.com/packages/templates/packs/car-parking-kit-1-7-116482?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Real Drift Manager
+https://assetstore.unity.com/packages/tools/physics/real-drift-manager-78510?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Traffic Race : Crash Template
+https://assetstore.unity.com/packages/templates/packs/traffic-race-crash-template-83204?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Truck Parking Kit
+https://assetstore.unity.com/packages/templates/packs/truck-parking-kit-81767?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Traffic Ride Template
+https://assetstore.unity.com/packages/templates/packs/traffic-ride-template-86956?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Bus Parking Kit 2
+https://assetstore.unity.com/packages/templates/packs/bus-parking-kit-2-107077?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Car Parking Template 3
+https://assetstore.unity.com/packages/templates/packs/car-parking-template-3-106716?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Off-Road Truck Template 2
+https://assetstore.unity.com/packages/templates/packs/off-road-truck-template-2-76990?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+Tree Collection Pack
+https://assetstore.unity.com/packages/3d/vegetation/trees/tree-collection-pack-76974?_ga=2.218727193.1685572403.1637743174-722242918.1635236432
+
+My lighting assets:
+
+Mobile Lighting Box 2020
+https://assetstore.unity.com/packages/tools/utilities/built-in-mobile-lighting-box-2020-181005?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+Lighting Box 2 Next-Gen Lighting Solution
+https://assetstore.unity.com/packages/tools/utilities/lighting-box-2-hd-render-pipeline-integration-93057?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+HDRP Lighting Box 2 Next-Gen Lighting Solution
+https://assetstore.unity.com/packages/tools/utilities/hd-lighting-box-2-nextgen-lighting-solution-180283?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+Universal Lighting Box 2
+https://assetstore.unity.com/packages/tools/utilities/universal-lighting-box-2-181550?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+Interior Lighting Kit (VR-Mobile-Standalone)
+https://assetstore.unity.com/packages/3d/characters/interior-lighting-kit-vr-mobile-standalone-84542?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+ArchViz Lighting Kit (Paris)
+https://assetstore.unity.com/packages/templates/tutorials/archviz-lighting-kit-paris-95071?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+Interior Lighting Template Vol.2
+https://assetstore.unity.com/packages/templates/interior-lighting-template-vol-2-88464?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+Real ArchViz Sample
+https://assetstore.unity.com/packages/templates/packs/real-archviz-sample-107076?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+Mobile Water Sea
+https://assetstore.unity.com/packages/vfx/shaders/mobile-water-sea-70873?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
+
+HDRP Terrain Tessellation Shader
+https://assetstore.unity.com/packages/vfx/shaders/hdrp-terrain-tessellation-shader-191250?_ga=2.183003174.1685572403.1637743174-722242918.1635236432
