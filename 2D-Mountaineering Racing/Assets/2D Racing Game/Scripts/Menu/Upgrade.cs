@@ -35,7 +35,14 @@ public class Upgrade : MonoBehaviour
 	[Header("Control Assistance CheakBox")]
 	public Toggle ControllAsist;
 
-	void Start ()
+    private void OnEnable()
+    {
+		LoadUpgrade();
+		//Debug.Log(PlayerPrefs.GetInt("SelectedCar"));
+		//Debug.Log("id:" + id);
+	}
+
+    void Start ()
 	{
 		
 		LoadUpgrade ();
@@ -45,19 +52,16 @@ public class Upgrade : MonoBehaviour
 	
 	public void LoadUpgrade()
 	{
-
-
-		id = PlayerPrefs.GetInt ("SelectedCar");
-
-		Engine = PlayerPrefs.GetInt ("Coins" + id.ToString ());
+		id = PlayerPrefs.GetInt("SelectedCar");
+		Engine = PlayerPrefs.GetInt ("Engine" + id.ToString ());
 		Fuel = PlayerPrefs.GetInt ("Fuel" + id.ToString ());
 		Suspension = PlayerPrefs.GetInt ("Suspension" + id.ToString ());
 		Speed = PlayerPrefs.GetInt ("Speed" + id.ToString ());
 
-		TorqueTXT.text = "等级: "+PlayerPrefs.GetInt ("Engine" + id.ToString ()).ToString ()+" / "+enginePrice.Length.ToString();
-		SuspensionTXT.text = "等级: " + PlayerPrefs.GetInt ("Suspension" + id.ToString ()).ToString ()+" / "+suspensionPrice.Length.ToString();
-		FuelTXT.text = "等级: " + PlayerPrefs.GetInt ("Fuel" + id.ToString ()).ToString ()+" / "+fuelPrice.Length.ToString();
-		SpeedTXT.text = "等级: " + PlayerPrefs.GetInt ("Speed" + id.ToString ()).ToString ()+" / "+speedPrice.Length.ToString();
+		TorqueTXT.text = "等级: "+ Engine.ToString ()+" / "+enginePrice.Length.ToString();
+		SuspensionTXT.text = "等级: " + Suspension.ToString ()+" / "+suspensionPrice.Length.ToString();
+		FuelTXT.text = "等级: " + Fuel.ToString ()+" / "+fuelPrice.Length.ToString();
+		SpeedTXT.text = "等级: " + Speed.ToString ()+" / "+speedPrice.Length.ToString();
 		  
 
 
@@ -88,6 +92,13 @@ public class Upgrade : MonoBehaviour
 	}
 	void Update ()
 	{
+		//Debug.Log(PlayerPrefs.GetInt("Engine" + id.ToString()).ToString() + " / " + enginePrice.Length.ToString());
+		//Debug.Log(PlayerPrefs.GetInt("Suspension" + id.ToString()).ToString() + " / " + suspensionPrice.Length.ToString());
+		//Debug.Log(PlayerPrefs.GetInt("Fuel" + id.ToString()).ToString() + " / " + fuelPrice.Length.ToString());
+		//Debug.Log(PlayerPrefs.GetInt("Speed" + id.ToString()).ToString() + " / " + speedPrice.Length.ToString());
+
+
+
 		//#if UNITY_EDITOR
 		//if (Input.GetKeyDown (KeyCode.H))
 		//	PlayerPrefs.DeleteAll ();
@@ -118,6 +129,7 @@ public class Upgrade : MonoBehaviour
 
 		}
 		UpgradeCoinsTXT.text = PlayerPrefs.GetInt("Coins").ToString();
+		PlayerPrefs.Save();
 	}
 
 	public void SuspensionUpgrade ()
@@ -142,6 +154,7 @@ public class Upgrade : MonoBehaviour
 			}
 		}
 		UpgradeCoinsTXT.text = PlayerPrefs.GetInt("Coins").ToString();
+		PlayerPrefs.Save();
 	}
 
 	public void FuelUpgrade ()
@@ -166,6 +179,7 @@ public class Upgrade : MonoBehaviour
 			}
 		}
 		UpgradeCoinsTXT.text = PlayerPrefs.GetInt("Coins").ToString();
+		PlayerPrefs.Save();
 	}
 
 
@@ -193,6 +207,7 @@ public class Upgrade : MonoBehaviour
 			}
 		}
 		UpgradeCoinsTXT.text = PlayerPrefs.GetInt("Coins").ToString();
+		PlayerPrefs.Save();
 	}
 
 

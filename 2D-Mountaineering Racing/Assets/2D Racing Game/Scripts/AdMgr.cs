@@ -71,4 +71,15 @@ public class AdMgr
             starkAdManager.ShowVideoAdWithId(adId, closeCallBack, errorCallBack);
         }
     }
+
+    public static void ShowInterstitialAd(string adId, System.Action closeCallBack, System.Action<int, string> errorCallBack)
+    {
+        starkAdManager = StarkSDK.API.GetStarkAdManager();
+        if (starkAdManager != null)
+        {
+            var mInterstitialAd = starkAdManager.CreateInterstitialAd(adId, errorCallBack, closeCallBack);
+            mInterstitialAd.Load();
+            mInterstitialAd.Show();
+        }
+    }
 }

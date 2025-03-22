@@ -193,7 +193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -75.4}
+  m_AnchoredPosition: {x: 1, y: -70.80001}
   m_SizeDelta: {x: 130, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3965920215809214099
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 500m
+  m_text: "500\u7C73"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c20820b696daf7449a97de2653bb9d0b, type: 2}
   m_sharedMaterial: {fileID: -9004215470560676508, guid: c20820b696daf7449a97de2653bb9d0b,
@@ -2127,7 +2127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -28.4}
+  m_AnchoredPosition: {x: 1, y: -23.8}
   m_SizeDelta: {x: 130, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3965920216603061401
@@ -5027,7 +5027,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.2
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -5609,8 +5609,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3965920217740504652}
-        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Reborn
         m_Mode: 1
         m_Arguments:

@@ -126,9 +126,15 @@ public class ItemSelect : MonoBehaviour
 		}
 
 		if (itemType == ItemType.Car)
-			PlayerPrefs.SetInt ("CarID", id);
+        {
+			PlayerPrefs.SetInt("CarID", id);
+			PlayerPrefs.SetInt("SelectedCar", id);
+		}
 		if (itemType == ItemType.Level)
-			PlayerPrefs.SetInt ("LevelID", id);
+        {
+			PlayerPrefs.SetInt("LevelID", id);
+			PlayerPrefs.SetInt("SelectedLevel", id);
+		}
 
 
 
@@ -138,7 +144,7 @@ public class ItemSelect : MonoBehaviour
 			else
 				lockIcon.SetActive (false);
 		}
-		if (itemType == ItemType.Level) {
+		else if (itemType == ItemType.Level) {
 			if (PlayerPrefs.GetInt ("Level" + id.ToString ()) != 3)
 				lockIcon.SetActive (true);
 			else
@@ -174,9 +180,15 @@ public class ItemSelect : MonoBehaviour
 		}
 
 		if (itemType == ItemType.Level)
-			PlayerPrefs.SetInt ("LevelID", id);
-		if (itemType == ItemType.Car)
-			PlayerPrefs.SetInt ("CarID", id);
+		{
+			PlayerPrefs.SetInt("LevelID", id);
+			PlayerPrefs.SetInt("SelectedLevel", id);
+		}
+		else if (itemType == ItemType.Car)
+        {
+			PlayerPrefs.SetInt("CarID", id);
+			PlayerPrefs.SetInt("SelectedCar", id);
+		}
 
 
 		if (itemType == ItemType.Level) {
@@ -218,6 +230,7 @@ public class ItemSelect : MonoBehaviour
 				gameObject.SetActive (false);
 				nextMen.SetActive (true);
 				PlayerPrefs.SetInt ("SelectedLevel", id);
+				PlayerPrefs.Save();
 			} else {
 				audioSource.clip = errorClip;
 				audioSource.Play ();
@@ -229,6 +242,7 @@ public class ItemSelect : MonoBehaviour
 				gameObject.SetActive (false);
 				nextMen.SetActive (true);
 				PlayerPrefs.SetInt ("SelectedCar", id);
+				PlayerPrefs.Save();
 			} else {
 				audioSource.clip = errorClip;
 				audioSource.Play ();
@@ -267,6 +281,7 @@ public class ItemSelect : MonoBehaviour
 			}
 
 		}
+		PlayerPrefs.Save();
 
 	}
 }

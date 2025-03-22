@@ -6,7 +6,7 @@ using TMPro;
 public class MenuTools : MonoBehaviour {
 
 
-
+	public static MenuTools instance;
 	// Player starting game in first time score
 	public int startScore;
 
@@ -20,7 +20,12 @@ public class MenuTools : MonoBehaviour {
 
 	public GameObject manuMusic;
 
-	void Start () {
+    private void Awake()
+    {
+		instance = this;
+    }
+
+    void Start () {
 
 		if(GameObject.Find ("LevelMusic(Clone)"))
 			Destroy (GameObject.Find ("LevelMusic(Clone)"));
@@ -60,22 +65,25 @@ public class MenuTools : MonoBehaviour {
 		UpgradeCoinsTXT.text = PlayerPrefs.GetInt("Coins").ToString();
 	}
     void Update () {
-		if (Input.GetKeyDown (KeyCode.H)) {
-			PlayerPrefs.DeleteAll ();
-			//LevelCoinsTXT.text = PlayerPrefs.GetInt ("Coins").ToString ();
-			#if UNITY_EDITOR
-			Debug.Log("PlayerPrefs.DeleteAll");
-			#endif
 
-		}
-		if (Input.GetKeyDown (KeyCode.V)) {
-			PlayerPrefs.SetInt ("Coins", PlayerPrefs.GetInt ("Coins") + startScore);
-			//LevelCoinsTXT.text = PlayerPrefs.GetInt ("Coins").ToString ();
-			#if UNITY_EDITOR
-			Debug.Log(PlayerPrefs.GetInt ("Coins").ToString()); 
-			#endif
+		UpdateCoins();
 
-		}
+		//if (Input.GetKeyDown (KeyCode.H)) {
+		//	PlayerPrefs.DeleteAll ();
+		//	//LevelCoinsTXT.text = PlayerPrefs.GetInt ("Coins").ToString ();
+		//	#if UNITY_EDITOR
+		//	Debug.Log("PlayerPrefs.DeleteAll");
+		//	#endif
+
+		//}
+		//if (Input.GetKeyDown (KeyCode.V)) {
+		//	PlayerPrefs.SetInt ("Coins", PlayerPrefs.GetInt ("Coins") + startScore);
+		//	//LevelCoinsTXT.text = PlayerPrefs.GetInt ("Coins").ToString ();
+		//	#if UNITY_EDITOR
+		//	Debug.Log(PlayerPrefs.GetInt ("Coins").ToString()); 
+		//	#endif
+
+		//}
 	}
 
 	public void OpenGooglePlay(string packageName){

@@ -8,14 +8,17 @@ public class Shop : MonoBehaviour
     {
         int coin = PlayerPrefs.GetInt("Coins") + value;
         PlayerPrefs.SetInt("Coins", coin);
+        PlayerPrefs.Save();
     }
     public void ClickBtn(int value)
     {
-        AdMgr.ShowVideoAd("192if3b93qo6991ed0",
+        AdMgr.ShowVideoAd("lnbppmnih472qsl0qg",
             (bol) => {
                 if (bol)
                 {
                     AddCoins(value);
+                    MenuTools.instance.SetFalse(gameObject);
+
                     AdMgr.clickid = "";
                     AdMgr.getClickid();
                     AdMgr.apiSend("game_addiction", AdMgr.clickid);

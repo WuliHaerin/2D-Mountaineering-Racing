@@ -314,6 +314,15 @@ public class GameManager : MonoBehaviour
 				youWinMenu.SetActive (true);
 				AddCoin (winnerAwardedCoins);
 				GameObject.FindGameObjectWithTag ("Player").GetComponent<Rigidbody2D> ().isKinematic = true;
+
+				AdMgr.ShowInterstitialAd("559no1d86ks13a5hic",
+	() => {
+		Debug.LogError("--插屏广告完成--");
+
+	},
+	(it, str) => {
+		Debug.LogError("Error->" + str);
+	});
 			}
 		}
 
@@ -323,6 +332,16 @@ public class GameManager : MonoBehaviour
 
 			youWinMenu.SetActive (true);
 			GameObject.FindGameObjectWithTag ("Player").GetComponent<Rigidbody2D> ().isKinematic = true;
+
+			AdMgr.ShowInterstitialAd("559no1d86ks13a5hic",
+	() => {
+		Debug.LogError("--插屏广告完成--");
+
+	},
+	(it, str) => {
+		Debug.LogError("Error->" + str);
+	});
+
 			Time.timeScale = 0;
 
 		}
@@ -380,7 +399,7 @@ public class GameManager : MonoBehaviour
 
 	public void Reborn()
 	{
-		AdMgr.ShowVideoAd("192if3b93qo6991ed0",
+		AdMgr.ShowVideoAd("arnhiaf0o222rj0t9m",
 			(bol) => {
 				if (bol)
 				{
@@ -392,6 +411,8 @@ public class GameManager : MonoBehaviour
                     {
 						TotalFuel = 100;
                     }
+					fuelFinished = false;
+					StopCoroutine(DeadFuel());
 					isDead = false;
 					youLostMenu.SetActive(false);
 					Time.timeScale = 1f;
