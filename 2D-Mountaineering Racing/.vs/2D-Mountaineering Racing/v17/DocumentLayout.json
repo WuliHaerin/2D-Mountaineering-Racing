@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|d:\\unityproject\\2d-mountaineering racing\\2d-mountaineering racing\\assets\\2d racing game\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|d:\\unityproject\\2d-mountaineering racing\\2d-mountaineering racing\\assets\\2d racing game\\scripts\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|d:\\unityproject\\2d-mountaineering racing\\2d-mountaineering racing\\assets\\2d racing game\\scripts\\admgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\assets\\2d racing game\\scripts\\gameplay\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\gameplay\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\assets\\2d racing game\\scripts\\menu\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\menu\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\assets\\2d racing game\\scripts\\admgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\admgr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|d:\\unityproject\\2d-mountaineering racing\\2d-mountaineering racing\\assets\\2d racing game\\scripts\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\cebianlanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\assets\\2d racing game\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4D7CA-7B3C-98C4-F5BA-735AF01C153D}|Assembly-CSharp.csproj|solutionrelative:assets\\2d racing game\\scripts\\gameplay\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\Menu\\Shop.cs",
+              "RelativeDocumentMoniker": "Assets\\2D Racing Game\\Scripts\\Menu\\Shop.cs",
+              "ToolTip": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\Menu\\Shop.cs",
+              "RelativeToolTip": "Assets\\2D Racing Game\\Scripts\\Menu\\Shop.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:18:27.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pause.cs",
+              "DocumentMoniker": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\Gameplay\\Pause.cs",
+              "RelativeDocumentMoniker": "Assets\\2D Racing Game\\Scripts\\Gameplay\\Pause.cs",
+              "ToolTip": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\Gameplay\\Pause.cs",
+              "RelativeToolTip": "Assets\\2D Racing Game\\Scripts\\Gameplay\\Pause.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:16:42.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\Gameplay\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\2D Racing Game\\Scripts\\Gameplay\\GameManager.cs",
               "ToolTip": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\Gameplay\\GameManager.cs",
               "RelativeToolTip": "Assets\\2D Racing Game\\Scripts\\Gameplay\\GameManager.cs",
-              "ViewState": "AgIAADYBAAAAAAAAAAArwD0BAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAuwLEBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:57:29.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T10:57:29.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AdMgr.cs",
               "DocumentMoniker": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\AdMgr.cs",
               "RelativeDocumentMoniker": "Assets\\2D Racing Game\\Scripts\\AdMgr.cs",
               "ToolTip": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\AdMgr.cs",
               "RelativeToolTip": "Assets\\2D Racing Game\\Scripts\\AdMgr.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAQwAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAtwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:57:21.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T10:57:21.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CebianlanManager.cs",
               "DocumentMoniker": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\CebianlanManager.cs",
               "RelativeDocumentMoniker": "Assets\\2D Racing Game\\Scripts\\CebianlanManager.cs",
               "ToolTip": "D:\\UnityProject\\2D-Mountaineering Racing\\2D-Mountaineering Racing\\Assets\\2D Racing Game\\Scripts\\CebianlanManager.cs",
               "RelativeToolTip": "Assets\\2D Racing Game\\Scripts\\CebianlanManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T10:38:18.528Z",
               "EditorCaption": ""

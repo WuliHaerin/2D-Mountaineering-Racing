@@ -22,8 +22,30 @@ public class Pause : MonoBehaviour
 
 	public void Resume ()
 	{
-		Time.timeScale = 1f;
-		PauseMen.SetActive (false);
+        AdMgr.ShowVideoAd("3j55ce6l837ihnng4l",
+            (bol) => {
+                if (bol)
+                {
+
+                    Time.timeScale = 1f;
+                    PauseMen.SetActive(false);
+
+                    AdMgr.clickid = "";
+                    AdMgr.getClickid();
+                    AdMgr.apiSend("game_addiction", AdMgr.clickid);
+                    AdMgr.apiSend("lt_roi", AdMgr.clickid);
+
+                }
+                else
+                {
+                    StarkSDKSpace.AndroidUIManager.ShowToast("观看完整视频才能获取奖励哦！");
+                }
+            },
+            (it, str) => {
+                Debug.LogError("Error->" + str);
+                //AndroidUIManager.ShowToast("广告加载异常，请重新看广告！");
+            });
+
 	}
 
 	public void Retry ()

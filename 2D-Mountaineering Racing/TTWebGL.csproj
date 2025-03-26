@@ -973,13 +973,13 @@
       <Project>{22A2F6E5-3828-D257-72FE-77FC7606432C}</Project>
       <Name>TTLitJson</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{7C1B5BBF-7C6F-32B8-7C11-860828F26E9C}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{51C070FE-8530-0543-E1E4-9A9199BBC061}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{7C1B5BBF-7C6F-32B8-7C11-860828F26E9C}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
